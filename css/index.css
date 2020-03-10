@@ -1,0 +1,116 @@
+﻿/*
+Created by: Alussius Aloy
+Created on: Sept 19, 2018
+*/
+body{
+	font-family:Arial;
+	background-color: white;
+	/* background-image: url("images/index/Background-opera-speeddials-community-web-simple-backgrounds.jpg"); */
+	/* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+}
+.bg-intro{
+	background-image: url("../images/index/banner-bg.jpg");
+	background-repeat: no-repeat;
+    background-position: center; 
+	height: 67vh;
+	/* background-color: #222131; */
+}
+.bg-social-media{
+	background-color: #CECECE;
+	padding: 15px 0px 15px 0px;
+}
+.myContainer{
+	height: 100%;
+	width:980px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #F6F4FD;
+	padding:0;
+	margin-bottom:0;
+}
+#profilePic{
+	width: 25%;
+	float: right;
+	margin-left: 5.166%;
+	margin-right: 5.166%;
+}
+hr.myHr{
+	margin:0px;
+	padding:0px;
+	width: 100%;
+	height:620px;
+	background-color: #eaecef;
+	border: none;
+}
+h1.about{
+	/* color: #323333; */
+	font-family: 'Great Vibes', cursive;
+	font-size: 4em;
+}
+#about-header{
+	text-align: center;
+}
+p.about{
+	font-family: 'Noto Serif KR', sans-serif;
+	font-size: 1.3em;
+}
+.intro-align{
+	padding-top: 240px;
+}
+.intro-border{
+	background-color: rgba(255,255,255,.2);
+}
+#info{
+	background-color: rgba(55, 61, 73, .7);
+}
+.alt{
+	background-color: rgba(110, 117, 131, .7);
+}
+.myCourseInfo{
+	color: #C5B1A2;
+}
+img.gallery{
+	width: 23%;
+	float: left;
+	margin: 1% 5.166% 3% 5.166%;
+}
+copyright{
+	float: bottom;
+	background-color: #2A3E78;
+}
+/* .bg{
+	background-image: url("../images/gallery/art-artist-blur-436775.jpg");
+    height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+} */
+.sm{
+	text-align: center;
+}
+a.dropdown-item:hover{
+	background-color:#DDE3E9;
+}
+.icon{
+	width: 60px;
+}
+.icon:hover{
+	fill: #464646;
+}
+#banNer{
+	opacity: .7;
+	width: 50px;
+}
+.dropdown-menu{
+	background-color: #343a40;
+}
+.dropdown-item{
+	color: #cccdcf;
+}
+h1              { font-size: 2em; margin: .67em 0 }
+h2              { font-size: 1.5em; margin: .75em 0 }
+h3              { font-size: 1.17em; margin: .83em 0 }
+h4              { margin: 1.12em 0 }
+h5              { font-size: .83em; margin: 1.5em 0 }
+h6              { font-size: .75em; margin: 1.67em 0 }

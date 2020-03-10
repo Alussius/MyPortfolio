@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<!-- Created by: Alussius Aloy -->
+<!-- Created on: Nov.5,2018 -->
+<html>
+	<head>
+		<title>Alussius Aloy - COMP 213 - Assignment 4</title>
+		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="../css/assignment.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="bg-a4">
+			<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+				<div class="container">
+					<a class="navbar-brand" href="#">COMP 213 - Assignment 4</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="../index.html">Home</a>
+							</li>
+							<li class="nav-item active dropdown">
+								<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Assignments</a>
+								<div class="dropdown-menu dropdown-menu4">
+									<a class="dropdown-item dropdown-item4" href="../Assignment/assignment2.html">Assignment 2</a>
+									<a class="dropdown-item dropdown-item4" href="../Assignment/assignment3.html">Assignment 3</a>
+									<a class="dropdown-item dropdown-item4" href="#">Assignment 4</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link" href="https://www.centennialcollege.ca/?gclid=Cj0KCQjw0dHdBRDEARIsAHjZYYCgDnYsC4Wy1WbODY_Des1e8omlH4MZ7OhXDM9oQJnLm_qudKsidgcaAvryEALw_wcB">Centennial College</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+			<div class="form-header container margin-bottom1 margin-top1">
+				<h1 class="header-banner4"><a href="https://www.centennialcollege.ca/" data-toggle="tooltip" title="centenialcolege.ca"><img class="header-image" src="../images/gallery/CentennialCollegeBanner.jpg"></a></h1>
+				<h5 class="header-banner4">Continuing Education Course/Instructor Evaluation</h5>
+			</div>
+			<form action="mailto:alussius@yahoo.com" method="post">
+				<div class="form-info container margin-bottom1 ">
+					<p>Please read each statment carefully and consider each one individually.</p>
+					<div class="form-group form-row">
+						<div class="col-lg-5 col-sm-5 mb-3">
+							<label for="example-text-input" for="course-name">Course Name:</label>
+							<input class="form-control" type="text" placeholder="e.g. Web Interface Design" name="course-name">
+						</div>
+						<div class="col-lg-3 col-sm-3 mb-3">
+							<label for="example-text-input" for="course-code">Code:</label>
+							<input class="form-control" type="text" placeholder="e.g. COMP213" name="course-code">
+						</div>
+						<div class="col-lg-4 col-sm-4 mb-3">
+							<label for="example-text-input" for="instructor-name">Instructor:</label>
+							<input class="form-control" type="text" placeholder="e.g. Joanne Filotti" name="instructor-name">
+						</div>
+					</div>
+					<div class="margin-bottom form-row">
+						<div class="col-lg-6 col-sm-6">
+							<div class="form-inline">
+								<label class="mr-sm-2" for="inlineFormCustomSelect">Semester</label>
+								<select name="sem" class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+									<option selected>Semester</option>
+									<option value="Fall">Fall</option>
+									<option value="Winter">Winter</option>
+									<option value="Spring/Summer">Spring/Summer</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-lg-6 col-sm-6">
+							<div class="form-inline">
+								<label class="mr-sm-2" for="inlineFormCustomSelect">Year</label>
+								<select name="school-year" class="custom-select mb-2 mr-sm-2 mb-sm-0" id="inlineFormCustomSelect">
+									<option selected>School Year</option>
+									<option value="2017-18">2017-18</option>
+									<option value="2018-19">2018-19</option>
+									<option value="2019-20">2019-20</option>
+								</select>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="instructor-eval container margin-bottom1">
+					<h5 class="header-div">Instructor</h5>
+					<p>How would you rate the instructor's:</p>
+					<div class="container row margin-bottom">
+						<legend class="legend">1. <strong>knowledge</strong> of subject?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="1" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="1" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="1" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="1" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+					<div class="container row margin-bottom">
+						<legend class="legend">2. <strong>Helpfulness</strong>?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="2" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+					</div>
+							<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="2" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="2" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="2" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+					<div class="container row margin-bottom">
+						<legend class="legend">3. <strong>courtesy and respect</strong> for all students?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="3" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="3" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="3" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="3" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+					<div class="container row margin-bottom">
+						<legend class="legend">4. <strong>communication</strong> skills?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="4" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="4" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="4" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="4" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+					<div class="container row margin-bottom">
+						<legend class="legend">5. overall <strong>performance</strong>?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="5" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="5" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="5" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="5" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="couse-eval container margin-bottom1">
+					<h5 class="header-div">Course</h5>
+					<div class="container row margin-bottom">
+						<legend class="legend">6. How would you rate the <strong>course materials</strong>?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="6" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="6" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="6" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="6" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+					<div class="container row margin-bottom">
+						<legend class="legend">7. How much did this course meet your <strong>expectation</strong>?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="7" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="7" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="7" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="7" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+					<div class="container row margin-bottom">
+						<legend class="legend">8. How would your rate this course (<strong>overall</strong>)?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="8" id="inlineRadio1" value="Excellent"> Excellent
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="8" id="inlineRadio2" value="Good"> Good
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="8" id="inlineRadio3" value="Fair"> Fair
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="8" id="inlineRadio3" value="Not Satisfactory"> Not Satisfactory
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="genreal-info container margin-bottom1">
+					<h5 class="header-div">General Information</h5>
+					<div class="container row margin-bottom">
+						<legend class="legend">9. Was the <strong>course outline</strong> reviewed/explained at the beginning of your course?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="9" id="inlineRadio1" value="Yes"> Yes
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="9" id="inlineRadio2" value="No"> No
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="9" id="inlineRadio3" value="Not Sure"> Not Sure
+							</label>
+						</div>
+					</div>
+					<div class="container row margin-bottom">
+						<legend class="legend">10. Would you <strong>recomend</strong> this course to a friend with the same interests?</legend>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="10" id="inlineRadio1" value="Yes"> Yes
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="10" id="inlineRadio2" value="No"> No
+							</label>
+						</div>
+						<div class="form-check form-check-inline">
+							<label class="form-check-label">
+								<input class="form-check-input" type="radio" name="10" id="inlineRadio3" value="Not Sure"> Not Sure
+							</label>
+						</div>
+					</div>
+				</div>
+				<div class="others container margin-bottom1">
+					<h5 class="header-div">Any Other Comments</h5>
+					<div class="form-group">
+						<label for="formGroupExampleInput">11. What is the <strong>best thing</strong> about this course?</label>
+						<input name="11" type="text" class="form-control" id="formGroupExampleInput" placeholder="">
+					</div>
+					<div class="form-group">
+						<label for="formGroupExampleInput2">12. How could we <strong>improve</strong> this course?</label>
+						<input name="12" type="text" class="form-control" id="formGroupExampleInput2" placeholder="">
+					</div>
+					<div class="form-group">
+						<label for="exampleTextarea">13. Other:</label>
+						<textarea name="13" class="form-control" id="exampleTextarea" rows="3"></textarea>
+					</div>
+				</div>
+				<div class="container button-container">
+					<div class="container row">
+						<div class="form-button">
+							<button type="submit" class="btn btn-primary">Submit Form</button>
+						</div>
+						<div class="form-button">
+							<button type="reset" value="Clear Form" class="btn btn-primary">Reset Form</button>
+						</div>
+					</div>
+				</div>
+			</form>
+			<footer>
+				<div class="container">
+					<h6 class="copyright">&copy; Copyright Alussius Aloy - COMP213 - Web Interface Design - Winter 2018</h6>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

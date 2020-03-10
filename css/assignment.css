@@ -1,0 +1,116 @@
+/*reset*/
+body{
+	background-color:white;
+}
+#contact-page{
+	font-family: 'Roboto', sans-serif;
+	background-color: #FCFDFE;
+}
+.bg{
+	background-image: url("../images/Assignment2/Background.jpg");
+    height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.light{
+	background-color: rgba(139, 165, 190, .7);
+}
+.white{
+	background-color: rgba(201, 215, 222, .7)
+}
+#banNer{
+	opacity: .8;
+}
+.myContainer{
+	height: 100%;
+	width:980px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:0;
+	margin-bottom:0;
+}
+.carousel-control-prev-icon{
+	color: red;
+}
+.btn-link{
+	color: black;
+}
+.carousel-control-prev-icon{
+	background-color: gray;
+}
+.carousel-control-next-icon{
+	background-color: gray;
+}
+.header-banner4{
+	text-align:center;
+}
+.margin-bottom{
+	margin-bottom:12px;
+}
+.margin-bottom1{
+	margin-bottom:35px;
+}
+.margin-top1{
+	padding-top:35px;
+}
+.legend{
+	font-size: 1em;
+}
+.header-div{
+	padding: 4px;
+	background-color: rgba(177, 188, 58, .85);
+}
+.center{
+	margin-left:auto;
+	margin-right:auto;
+}
+.copyright{
+	text-align:center;
+}
+img.header-image{
+	width:250px;
+}
+.btn-primary{
+	background-color:#b1bc3a;
+	border-color:#b1bc3a;
+}
+.btn-primary:hover{
+	background-color:#939C1D;
+	border-color:#939C1D;
+}
+.btn-primary:focus{
+	background-color:#939C1D;
+	border-color:#939C1D;
+	box-shadow: 0 0 0 0.2rem rgba(211, 221, 98, 0.5);
+}
+.btn-primary.disabled, .btn-primary:disabled {
+  color: #fff;
+  background-color: #b1bc3a;
+  border-color: #b1bc3a;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #939C1D;
+  border-color: #939C1D;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus,
+.show > .btn-primary.dropdown-toggle:focus {
+  box-shadow: 0 0 0 0.2rem rgba(211, 221, 98, 0.5);
+}
+.dropdown-menu4{
+	background-color: #343a40;
+}
+.dropdown-item4{
+	color: #cccdcf;
+}
+.form-button{
+	padding-right: 12px;
+}
+.button-container{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
